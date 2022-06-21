@@ -2,8 +2,12 @@ class SearchPageLocators:
     loginInput = "input[id='form2Example17']"
     passwordInput = "input[id='form2Example27']"
     confirmLoginButton = "button[class='btn btn-dark btn-lg btn-block']"
-    welcomeMessage = "//div[@class='div-center']/h1"
+    welcomeMessage = "//div[@id='drugi_div']/div/div/h1[1]"
+    roleMessage = "//div[@id='drugi_div']/div/div/h1[2]"
+    NameAndLastNameMessage = "//div[@id='drugi_div']/div/div/h2"
     logout = "//a[text()='Wyloguj']"
+    wrongNameOrPassMessage = "/html/body/div/section/div/div/div/div/div/div[2]/div/form/span"
+
 
 class SearchNavBarItemsServiceTechnician:
     home = "//ul[@class='navigation']/li[1]/a"
@@ -30,7 +34,7 @@ class SearchNavBarItemsCoordinator:
 class SearchNavBarItemsWarehouseman:
     home = "//ul[@class='navigation']/li[1]/a"
     warehouse = "//ul[@class='navigation']/li[2]/div/a"
-    nickname = "//ul[@class='navigation']/li[3]/div/a"
+    nickname = "//ul[@class='navigation']/li[last()]/div/a"
 
 
 # class SearchNewOrderItems:

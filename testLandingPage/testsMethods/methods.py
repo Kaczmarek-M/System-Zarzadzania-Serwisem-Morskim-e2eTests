@@ -14,8 +14,36 @@ class SearchSite:
 
     allure.step("Poprawne zalogowanie się do systemu")
 
-    def properlyLoginAndPassword(self, activation_code, password):
-        self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.loginInput).send_keys(activation_code)
+    def wrongLogin(self):
+        login = self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.loginInput)
+        login.send_keys("wrongLogin")
+        password = self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.passwordInput)
+        password.send_keys("PJATK1234")
+        confirm = self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.confirmLoginButton)
+        confirm.send_keys(Keys.ENTER)
+        time.sleep(1)
+        wrongLoginDataMassage = self.driver.find_element(By.XPATH, SearchPageLocators.wrongNameOrPassMessage).text
+        assert wrongLoginDataMassage == "Błędna nazwa użytkownika lub hasło."
+
+    def wrongPassword(self):
+        time.sleep(2)
+        login = self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.loginInput)
+        login.send_keys(Keys.COMMAND + 'a')
+        login.send_keys(Keys.BACKSPACE)
+        login.send_keys("admin")
+        password = self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.passwordInput)
+        password.send_keys("wrongPassword")
+        confirm = self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.confirmLoginButton)
+        confirm.send_keys(Keys.ENTER)
+        time.sleep(1)
+        wrongLoginDataMassage = self.driver.find_element(By.XPATH, SearchPageLocators.wrongNameOrPassMessage).text
+        assert wrongLoginDataMassage == "Błędna nazwa użytkownika lub hasło."
+
+    def properlyLoginAndPassword(self, login, password):
+        removeName = self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.loginInput)
+        removeName.send_keys(Keys.COMMAND + 'a')
+        removeName.send_keys(Keys.BACKSPACE)
+        self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.loginInput).send_keys(login)
         time.sleep(1)
         self.driver.find_element(By.CSS_SELECTOR, SearchPageLocators.passwordInput).send_keys(password)
         time.sleep(1)
@@ -25,7 +53,11 @@ class SearchSite:
 
     def checkNavbarForServiceTechnician(self):
         checkWelcomeMessage = self.driver.find_element(By.XPATH, SearchPageLocators.welcomeMessage).text
-        assert checkWelcomeMessage == "Welcome Serwisant1"
+        assert checkWelcomeMessage == "Welcome"
+        checkUserName = self.driver.find_element(By.XPATH, SearchPageLocators.roleMessage).text
+        assert checkUserName == "Serwisant1"
+        checkNameAndLastName = self.driver.find_element(By.XPATH, SearchPageLocators.NameAndLastNameMessage).text
+        assert checkNameAndLastName == "Marek Kowalik"
         checkHome = self.driver.find_element(By.XPATH, SearchNavBarItemsServiceTechnician.home).text
         assert checkHome == "HOME"
         checkVessel = self.driver.find_element(By.XPATH, SearchNavBarItemsServiceTechnician.vessel).text
@@ -40,7 +72,11 @@ class SearchSite:
 
     def checkNavbarForCoordinator(self):
         checkWelcomeMessage = self.driver.find_element(By.XPATH, SearchPageLocators.welcomeMessage).text
-        assert checkWelcomeMessage == "Welcome Koordynator1"
+        assert checkWelcomeMessage == "Welcome"
+        checkUserName = self.driver.find_element(By.XPATH, SearchPageLocators.roleMessage).text
+        assert checkUserName == "Koordynator1"
+        checkNameAndLastName = self.driver.find_element(By.XPATH, SearchPageLocators.NameAndLastNameMessage).text
+        assert checkNameAndLastName == "Adrian Maty"
         checkHome = self.driver.find_element(By.XPATH, SearchNavBarItemsCoordinator.home).text
         assert checkHome == "HOME"
         checkVessel = self.driver.find_element(By.XPATH, SearchNavBarItemsCoordinator.vessel).text
@@ -56,7 +92,11 @@ class SearchSite:
 
     def checkNavbarForWarehouseman(self):
         checkWelcomeMessage = self.driver.find_element(By.XPATH, SearchPageLocators.welcomeMessage).text
-        assert checkWelcomeMessage == "Welcome Magazynier2"
+        assert checkWelcomeMessage == "Welcome"
+        checkUserName = self.driver.find_element(By.XPATH, SearchPageLocators.roleMessage).text
+        assert checkUserName == "Magazynier2"
+        checkNameAndLastName = self.driver.find_element(By.XPATH, SearchPageLocators.NameAndLastNameMessage).text
+        assert checkNameAndLastName == "Damian Kicha"
         checkHome = self.driver.find_element(By.XPATH, SearchNavBarItemsWarehouseman.home).text
         assert checkHome == "HOME"
         checkWarehouse = self.driver.find_element(By.XPATH, SearchNavBarItemsWarehouseman.warehouse).text
@@ -87,6 +127,8 @@ class SearchSite:
         assert destinationPort == "PLGDY-SEKAA-PLGDY"
         self.driver.close()
         self.driver.switch_to.window(parentWindow)
+        self.driver.find_element(By.XPATH, SearchNavBarItemsWarehouseman.nickname).click()
+        self.driver.find_element(By.XPATH, SearchPageLocators.logout).click()
 
         time.sleep(2)
 
