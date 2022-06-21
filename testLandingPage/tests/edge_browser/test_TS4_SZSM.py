@@ -5,16 +5,12 @@ import pytest
 import time
 
 
-@pytest.mark.usefixtures("chromeSetup")
+@pytest.mark.usefixtures("edgeSetup")
 class TestPage:
 
     @allure.title('System Zarzadzania Serwisem Morskim tests')
-    def test_SZSM_page(self, chromeSetup):
+    def test_SZSM_page(self, edgeSetup):
         self.driver.get("http://localhost:8080")
         site = SearchSite(self.driver)
-        site.wrongLogin()
-        site.wrongPassword()
         site.properlyLoginAndPassword("Serwisant1", "PJATK1234")
-        site.checkNavbarForServiceTechnician()
-        
-
+        site.checkShipImoNumber()
