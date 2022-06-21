@@ -1,0 +1,89 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "adminDashboard.test_TS1_PA",
+    "children" : [ {
+      "name" : "System Zarzadzania Serwisem Morskim Panel Administracyjny",
+      "uid" : "475b8830c4351959",
+      "parentUid" : "631619dd14e391621157a726ca9569a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655631029129,
+        "stop" : 1655631030061,
+        "duration" : 932
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "adminDashboard.test_TS1_PA"
+  }, {
+    "name" : "chrome_browser.test_TS1_SZSM",
+    "children" : [ {
+      "name" : "System Zarzadzania Serwisem Morskim tests",
+      "uid" : "4e1a811a1ca4032",
+      "parentUid" : "f8cfd1df470998477f9cf900770246cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655631032834,
+        "stop" : 1655631037734,
+        "duration" : 4900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "chrome_browser.test_TS1_SZSM"
+  }, {
+    "name" : "edge_browser.test_TS1_SZSM",
+    "children" : [ {
+      "name" : "System Zarzadzania Serwisem Morskim tests",
+      "uid" : "97577a3d940713fa",
+      "parentUid" : "a80be0c7e3b61af6c307a4ac7aa07dff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655631047562,
+        "stop" : 1655631052538,
+        "duration" : 4976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "edge_browser.test_TS1_SZSM"
+  }, {
+    "name" : "firefox_browser.test_TS1_SZSM",
+    "children" : [ {
+      "name" : "System Zarzadzania Serwisem Morskim tests",
+      "uid" : "13eef41e1ad94aff",
+      "parentUid" : "a7c63da79d17c05ff37a39dc6eca0245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655631057160,
+        "stop" : 1655631061982,
+        "duration" : 4822
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "firefox_browser.test_TS1_SZSM"
+  } ]
+}

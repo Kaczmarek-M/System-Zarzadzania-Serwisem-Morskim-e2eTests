@@ -1,0 +1,121 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "adminDashboard",
+    "children" : [ {
+      "name" : "test_TS1_PA",
+      "children" : [ {
+        "name" : "TestPage",
+        "children" : [ {
+          "name" : "System Zarzadzania Serwisem Morskim Panel Administracyjny",
+          "uid" : "475b8830c4351959",
+          "parentUid" : "4c5d2dc0d3a1e87fce672832a5ebafea",
+          "status" : "passed",
+          "time" : {
+            "start" : 1655631029129,
+            "stop" : 1655631030061,
+            "duration" : 932
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4c5d2dc0d3a1e87fce672832a5ebafea"
+      } ],
+      "uid" : "e5cb30891222224bbc4ed246f58db560"
+    } ],
+    "uid" : "313d9c7757947eda83c6fdc6364d1b18"
+  }, {
+    "name" : "chrome_browser",
+    "children" : [ {
+      "name" : "test_TS1_SZSM",
+      "children" : [ {
+        "name" : "TestPage",
+        "children" : [ {
+          "name" : "System Zarzadzania Serwisem Morskim tests",
+          "uid" : "4e1a811a1ca4032",
+          "parentUid" : "1b4a0ab87f10b4cea0ad6a7ebef180a4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1655631032834,
+            "stop" : 1655631037734,
+            "duration" : 4900
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1b4a0ab87f10b4cea0ad6a7ebef180a4"
+      } ],
+      "uid" : "18d1d1c8aa30c7db160d9570922c2b74"
+    } ],
+    "uid" : "de3df500f11edfcd27a1d5e74547971e"
+  }, {
+    "name" : "edge_browser",
+    "children" : [ {
+      "name" : "test_TS1_SZSM",
+      "children" : [ {
+        "name" : "TestPage",
+        "children" : [ {
+          "name" : "System Zarzadzania Serwisem Morskim tests",
+          "uid" : "97577a3d940713fa",
+          "parentUid" : "0df8675268f7f96abf3fd197707fbb09",
+          "status" : "passed",
+          "time" : {
+            "start" : 1655631047562,
+            "stop" : 1655631052538,
+            "duration" : 4976
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0df8675268f7f96abf3fd197707fbb09"
+      } ],
+      "uid" : "1e9eea0c31f9a4f526e64cfae18c634e"
+    } ],
+    "uid" : "c8c89dd48db648060a1e6bdc77513705"
+  }, {
+    "name" : "firefox_browser",
+    "children" : [ {
+      "name" : "test_TS1_SZSM",
+      "children" : [ {
+        "name" : "TestPage",
+        "children" : [ {
+          "name" : "System Zarzadzania Serwisem Morskim tests",
+          "uid" : "13eef41e1ad94aff",
+          "parentUid" : "602605992092bfb7577762b972a0d085",
+          "status" : "passed",
+          "time" : {
+            "start" : 1655631057160,
+            "stop" : 1655631061982,
+            "duration" : 4822
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "602605992092bfb7577762b972a0d085"
+      } ],
+      "uid" : "98042ff670804c657b18b81c915f135e"
+    } ],
+    "uid" : "d8d8853e1ebf2d9ecb1b05216953a43e"
+  } ]
+}

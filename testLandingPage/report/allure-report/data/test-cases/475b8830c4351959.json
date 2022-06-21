@@ -1,0 +1,145 @@
+{
+  "uid" : "475b8830c4351959",
+  "name" : "System Zarzadzania Serwisem Morskim Panel Administracyjny",
+  "fullName" : "adminDashboard.test_TS1_PA.TestPage#test_SZSM_page",
+  "historyId" : "31e63cee5f5862b0b15f69d1bbd7402a",
+  "time" : {
+    "start" : 1655631029129,
+    "stop" : 1655631030061,
+    "duration" : 932
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "chromeSetup",
+    "time" : {
+      "start" : 1655631026421,
+      "stop" : 1655631029100,
+      "duration" : 2679
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logowanie do panelu administracyjnego",
+      "time" : {
+        "start" : 1655631029392,
+        "stop" : 1655631029925,
+        "duration" : 533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Sprawdzanie czy wszystkie nazwy modułów wyświetlają się poprawnie",
+      "time" : {
+        "start" : 1655631029925,
+        "stop" : 1655631030061,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f48614ced0c82ca3",
+      "name" : "log",
+      "source" : "f48614ced0c82ca3.txt",
+      "type" : "text/plain",
+      "size" : 410
+    }, {
+      "uid" : "bf8500a5c5a85002",
+      "name" : "stderr",
+      "source" : "bf8500a5c5a85002.txt",
+      "type" : "text/plain",
+      "size" : 236
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "chromeSetup::0",
+    "time" : {
+      "start" : 1655631030061,
+      "stop" : 1655631030147,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('chromeSetup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "adminDashboard"
+  }, {
+    "name" : "suite",
+    "value" : "test_TS1_PA"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPage"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Michal.local"
+  }, {
+    "name" : "thread",
+    "value" : "23211-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "adminDashboard.test_TS1_PA"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('chromeSetup')" ]
+  },
+  "source" : "475b8830c4351959.json",
+  "parameterValues" : [ ]
+}

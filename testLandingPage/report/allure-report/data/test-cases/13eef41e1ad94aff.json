@@ -1,0 +1,115 @@
+{
+  "uid" : "13eef41e1ad94aff",
+  "name" : "System Zarzadzania Serwisem Morskim tests",
+  "fullName" : "firefox_browser.test_TS1_SZSM.TestPage#test_SZSM_page",
+  "historyId" : "ac6ec7dbbc54f55b9906887c94a850ca",
+  "time" : {
+    "start" : 1655631057160,
+    "stop" : 1655631061982,
+    "duration" : 4822
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "firefoxSetup",
+    "time" : {
+      "start" : 1655631052623,
+      "stop" : 1655631057159,
+      "duration" : 4536
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81f5c854c04db3b",
+      "name" : "log",
+      "source" : "81f5c854c04db3b.txt",
+      "type" : "text/plain",
+      "size" : 379
+    }, {
+      "uid" : "91ec9af161a6cbed",
+      "name" : "stderr",
+      "source" : "91ec9af161a6cbed.txt",
+      "type" : "text/plain",
+      "size" : 205
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "firefoxSetup::0",
+    "time" : {
+      "start" : 1655631061982,
+      "stop" : 1655631062503,
+      "duration" : 521
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('firefoxSetup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox_browser"
+  }, {
+    "name" : "suite",
+    "value" : "test_TS1_SZSM"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPage"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Michal.local"
+  }, {
+    "name" : "thread",
+    "value" : "23211-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "firefox_browser.test_TS1_SZSM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('firefoxSetup')" ]
+  },
+  "source" : "13eef41e1ad94aff.json",
+  "parameterValues" : [ ]
+}

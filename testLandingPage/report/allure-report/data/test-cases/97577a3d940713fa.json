@@ -1,0 +1,115 @@
+{
+  "uid" : "97577a3d940713fa",
+  "name" : "System Zarzadzania Serwisem Morskim tests",
+  "fullName" : "edge_browser.test_TS1_SZSM.TestPage#test_SZSM_page",
+  "historyId" : "c7cd30cfb53835ccdf7bd2f5044b7798",
+  "time" : {
+    "start" : 1655631047562,
+    "stop" : 1655631052538,
+    "duration" : 4976
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "edgeSetup",
+    "time" : {
+      "start" : 1655631037832,
+      "stop" : 1655631047550,
+      "duration" : 9718
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad7ab553722c348e",
+      "name" : "log",
+      "source" : "ad7ab553722c348e.txt",
+      "type" : "text/plain",
+      "size" : 487
+    }, {
+      "uid" : "91c552fa55d691cb",
+      "name" : "stderr",
+      "source" : "91c552fa55d691cb.txt",
+      "type" : "text/plain",
+      "size" : 313
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "edgeSetup::0",
+    "time" : {
+      "start" : 1655631052538,
+      "stop" : 1655631052618,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('edgeSetup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "edge_browser"
+  }, {
+    "name" : "suite",
+    "value" : "test_TS1_SZSM"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPage"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Michal.local"
+  }, {
+    "name" : "thread",
+    "value" : "23211-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "edge_browser.test_TS1_SZSM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('edgeSetup')" ]
+  },
+  "source" : "97577a3d940713fa.json",
+  "parameterValues" : [ ]
+}

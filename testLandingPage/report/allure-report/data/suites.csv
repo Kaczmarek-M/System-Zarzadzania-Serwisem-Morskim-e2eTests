@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jun 19 11:30:57 CEST 2022","Sun Jun 19 11:31:01 CEST 2022","4822","firefox_browser","test_TS1_SZSM","TestPage","","","System Zarzadzania Serwisem Morskim tests",""
+"passed","Sun Jun 19 11:30:29 CEST 2022","Sun Jun 19 11:30:30 CEST 2022","932","adminDashboard","test_TS1_PA","TestPage","","","System Zarzadzania Serwisem Morskim Panel Administracyjny",""
+"passed","Sun Jun 19 11:30:32 CEST 2022","Sun Jun 19 11:30:37 CEST 2022","4900","chrome_browser","test_TS1_SZSM","TestPage","","","System Zarzadzania Serwisem Morskim tests",""
+"passed","Sun Jun 19 11:30:47 CEST 2022","Sun Jun 19 11:30:52 CEST 2022","4976","edge_browser","test_TS1_SZSM","TestPage","","","System Zarzadzania Serwisem Morskim tests",""

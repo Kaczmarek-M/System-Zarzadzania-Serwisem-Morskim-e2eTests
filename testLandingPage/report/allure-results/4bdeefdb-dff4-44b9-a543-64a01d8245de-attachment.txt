@@ -1,0 +1,5 @@
+====== WebDriver manager ======
+Current edge version is 102.0.1245
+Get LATEST edgedriver version for 102.0.1245 Edge
+Trying to download new driver from https://msedgedriver.azureedge.net/102.0.1245.44/edgedriver_mac64.zip
+Driver has been saved in cache [/Users/michal/.wdm/drivers/edgedriver/mac64/102.0.1245.44]

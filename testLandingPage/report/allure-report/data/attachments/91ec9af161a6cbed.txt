@@ -1,0 +1,6 @@
+
+
+====== WebDriver manager ======
+Current firefox version is 101.0
+Get LATEST geckodriver version for 101.0 firefox
+Driver [/Users/michal/.wdm/drivers/geckodriver/macos/v0.31.0/geckodriver] found in cache

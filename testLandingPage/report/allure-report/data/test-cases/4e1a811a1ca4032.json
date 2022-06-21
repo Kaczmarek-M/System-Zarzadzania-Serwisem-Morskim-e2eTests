@@ -1,0 +1,115 @@
+{
+  "uid" : "4e1a811a1ca4032",
+  "name" : "System Zarzadzania Serwisem Morskim tests",
+  "fullName" : "chrome_browser.test_TS1_SZSM.TestPage#test_SZSM_page",
+  "historyId" : "499779779cd3150067276f2240591849",
+  "time" : {
+    "start" : 1655631032834,
+    "stop" : 1655631037734,
+    "duration" : 4900
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "chromeSetup",
+    "time" : {
+      "start" : 1655631030156,
+      "stop" : 1655631032829,
+      "duration" : 2673
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9cba1a64638e4581",
+      "name" : "log",
+      "source" : "9cba1a64638e4581.txt",
+      "type" : "text/plain",
+      "size" : 410
+    }, {
+      "uid" : "7b473cfc680cdee6",
+      "name" : "stderr",
+      "source" : "7b473cfc680cdee6.txt",
+      "type" : "text/plain",
+      "size" : 236
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "chromeSetup::0",
+    "time" : {
+      "start" : 1655631037735,
+      "stop" : 1655631037826,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('chromeSetup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chrome_browser"
+  }, {
+    "name" : "suite",
+    "value" : "test_TS1_SZSM"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPage"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Michal.local"
+  }, {
+    "name" : "thread",
+    "value" : "23211-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "chrome_browser.test_TS1_SZSM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('chromeSetup')" ]
+  },
+  "source" : "4e1a811a1ca4032.json",
+  "parameterValues" : [ ]
+}
